@@ -63,18 +63,19 @@ Output (Success):
   "user": { "id": "12345", "name": "John Doe", "role": "guest" }
 }
 
-Validation Rules
+```
+### Validation Rules
 
-Email must be valid and unique.
+* Email must be valid and unique.
 
-Password: Minimum 8 characters, at least 1 uppercase, 1 lowercase, 1 digit, 1 special character.
+* Password: Minimum 8 characters, at least 1 uppercase, 1 lowercase, 1 digit, 1 special character.
 
-Role: Must be either "guest" or "host".
+* Role: Must be either "guest" or "host".
 
-Performance Criteria
+### Performance Criteria
 
-Registration/login response time ≤ 300ms.
+* Registration/login response time ≤ 300ms.
 
-JWT token expiration: configurable (e.g., 1 hour).
+* JWT token expiration: configurable (e.g., 1 hour).
 
-Support concurrent logins for 10,000+ users.
+* Support concurrent logins for 10,000+ users.
